@@ -1,12 +1,13 @@
 body {
-  background-color: #333;
+  /* background-color: #333; */
   font-family: sans-serif;
   font-size: 10px;
+  box-sizing: border-box;
 }
 
 .container {
-  margin: 0 auto;
-  width: 420px;
+  margin: auto 5%;
+  width: 100%;
 }
 
 nav {
@@ -18,4 +19,17 @@ nav {
 
 .restaurant-list {
   padding-top: 50px;
+}
+
+.restaurant-list .content {
+  font-size: 18px;
+}
+
+.restaurant-list .location {
+  width: 30%;
+  display: inline-block;
+}
+
+div.location {
+  background-color: firebrick;
 }
