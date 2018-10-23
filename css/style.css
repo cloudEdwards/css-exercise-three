@@ -6,30 +6,61 @@ body {
 }
 
 .container {
-  margin: auto 5%;
+  margin: 0;
   width: 100%;
+  text-align: center;
 }
 
 nav {
-  margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  background-color: black;
+  text-align: left;
+  height: 50px;
   position: fixed;
-  width: 420px;
+  width: 30%;
+  margin: auto 35%;
+}
+
+nav .arrow-left i {
+  margin-top: 3%;
+  padding-left: 2%;
 }
 
 .restaurant-list {
+  margin: 0 auto;
   padding-top: 50px;
+  width: 30%;
 }
 
 .restaurant-list .content {
+  display: inline-block;
   font-size: 18px;
+  padding: 2%;
+}
+.restaurant-list .content h1 {
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+.restaurant-list .content h3 {
+  font-size: small;
+}
+
+.restaurant-list .arrow {
+  float: right;
+  padding-top: 3%;
+  padding-right: 2%;
 }
 
 .restaurant-list .location {
-  width: 30%;
+  text-align: left;
+  width: 100%;
+  margin:0 auto;
   display: inline-block;
 }
 
 div.location {
-  background-color: firebrick;
+  background-color: lightgrey;
+}
+
+div.location:hover {
+  background-color: #eee;
 }
